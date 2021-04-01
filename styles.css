@@ -1,0 +1,60 @@
+:root {
+    --normal-gray: #BDBDBD;
+    --dark-gray: #707070;
+    --normal-blue: #74B6EE;
+    --light-gray: #EFEFEF;
+    --warm-black: #232121;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 6.25%;
+    font-family: 'DM Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--light-gray);
+}
+
+header {
+    width: 100vw;
+    min-width: 320px;
+    height: 94px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+header .header-logo-title {
+    font-size: 20rem;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 30rem;
+}
+
+header .header-logo-title p {
+    margin-top: 22px; 
+    margin-left: 12px; 
+    margin-right: 4px;
+}
+
+header .header-logo-title img {
+    width: 41px;
+    height: 47px;
+    margin-top: 22px;
+}
+
+.hamburger-menu a img {
+    width: 40px;
+    height: 36px;
+    margin-top: 22px;
+    margin-right: 10px;
+}
+
