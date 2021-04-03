@@ -32,11 +32,11 @@ header {
 }
 
 header .header-logo-title {
-    font-size: 20rem;
+    font-size: 18rem;
     display: flex;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    line-height: 30rem;
+    line-height: 25rem;
 }
 
 header .header-logo-title p {
@@ -46,15 +46,66 @@ header .header-logo-title p {
 }
 
 header .header-logo-title img {
-    width: 41px;
-    height: 47px;
+    width: 47px;
+    height: 41px;
     margin-top: 22px;
 }
 
-.hamburger-menu a img {
-    width: 40px;
-    height: 36px;
-    margin-top: 22px;
-    margin-right: 10px;
+.hamburger-menu {
+    position: relative;
+    min-height: 40px;
 }
+
+.hamburger-menu input[type="checkbox"], .hamburger-menu .hamburger-menu-logo, .hamburger-menu .hamburger-menu-close-icon {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.hamburger-menu .hamburger-menu-logo, .hamburger-menu .hamburger-menu-close-icon {
+    font-size: 40rem;
+    pointer-events: none;
+}
+
+.hamburger-menu input[type="checkbox"] {
+    opacity: 0;
+}
+
+.hamburger-menu nav {
+    display: none;
+}
+
+.hamburger-menu li {
+    list-style: none;
+}
+
+.hamburger-menu li a {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18rem;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    border-bottom: 2px solid white;
+    max-width: 200px;
+    background: var(--normal-blue);
+    text-shadow: 1px 1px black;
+}
+
+.hamburger-menu input:checked ~ nav {
+    display: block;
+}
+
+.hamburger-menu input:checked ~ .hamburger-menu-logo {
+    display: none;
+}
+
+.hamburger-menu input:not(:checked) ~ .hamburger-menu-close-icon {
+    display: none;
+}
+
 
