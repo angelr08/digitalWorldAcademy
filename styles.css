@@ -140,7 +140,7 @@ header .header-logo-title img {
     border-bottom: 10px var(--dark-gray) solid;
 }
 
-h1 {
+.main-landing-presentation-container h1 {
     font-size: 24rem;
     text-align: center;
     padding-top: 30px;
@@ -178,6 +178,7 @@ h1 {
     font-weight: 700;
     text-decoration: none;
     color: white;
+    margin: 0 auto;
 }
 
 .main-second-landing-container h2 {
@@ -210,15 +211,185 @@ h1 {
     width: 50px;
     height: 50px;
     margin-left: 35px;
+    margin-top: 30px;
 }
 
 .courses-advantage p {
     font-size: 20rem;
     padding-left: 20px;
-    padding-top: 10px;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     line-height: 24rem;
     color: var(--warm-black);
 }
 
+.courses-advantage-p {
+    padding-top: 40px;
+}
+
+.courses-advantage-p2 {
+    padding-top: 25px;
+}
+
+.main-second-landing-container .project-advantage {
+    border-bottom: none;
+}
+
+.main-third-landing-container-image {
+    width: 100vw;
+    min-width: 320px;
+    height: 94px;
+    background-image: url('https://images.unsplash.com/photo-1606761568499-6d2451b23c66?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-third-landing-container-information {
+    width: 80vw;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.main-third-landing-container h2 {
+    font-size: 24rem;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 27rem;
+    color: var(--title-brown);
+}
+
+.main-third-landing-container-information div {
+    width: 108px;
+    height: 6px;
+    background-color: var(--text-slide);
+    margin-bottom: 25px;
+}
+
+.main-third-landing-container-information p {
+    font-size: 18rem;
+    margin-bottom: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 28rem;
+    color: var(--warm-black);
+}
+
+.main-third-landing-container-information button {
+    width: 172px;
+    height: 43px;
+    background-color: var(--normal-blue);
+    border-radius: 4px;
+    border: none;
+}
+
+.main-third-landing-container-information button a {
+    font-size: 18rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    margin: 0 auto;
+}
+
+/* About */
+
+.main-welcome-image {
+    position: relative;
+    width: 100vw;
+    min-width: 320px;
+    height: 160px;
+    background-image: url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-welcome-image h2 {
+    font-size: 24rem;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.main-welcome-image img {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    left: calc(50% - 30px);
+
+}
+
+.main-welcome h1 {
+    font-size: 24rem;
+}
+
+.main-welcome-text {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.main-welcome-text div {
+    width: 108px;
+    height: 6px;
+    background-color: var(--text-slide);
+}
+
+.main-welcome-text p {
+    font-size: 18rem;
+}
+
+footer {
+    width: 100vw;
+    min-width: 320px;
+    height: 400px;
+    background-color: var(--dark-gray);
+}
+
+.footer-connect, .footer-contact {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+footer h2 {
+    font-size: 24rem;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 27rem;
+    color: white;
+}
+
+.footer-connect-icons img {
+    width: 40px;
+    height: 40px;
+    margin: 15px 3px;
+}
+
+footer p {
+    font-size: 18rem;
+    padding-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 22rem;
+    color: white;
+}
+
+.footer-contact-information {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.footer-contact-information img {
+    width: 30px;
+    height: 30px;
+    margin-right: 3px;
+}
+
+.footer-contact-information p {
+    font-size: 16rem;
+    padding: 5px
+}
