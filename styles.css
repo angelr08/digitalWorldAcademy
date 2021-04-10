@@ -296,6 +296,8 @@ header .header-logo-title img {
 
 /* About */
 
+
+
 .main-welcome-image {
     position: relative;
     width: 100vw;
@@ -307,11 +309,22 @@ header .header-logo-title img {
     background-repeat: no-repeat;
 }
 
+.main-welcome-image div {
+    width: 100vw;
+    min-width: 320px;
+    height: 160px;
+    background-color: rgba(252, 252, 252, .7);
+}
+
 .main-welcome-image h2 {
     font-size: 24rem;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 27rem;
+    color: var(--warm-black);
 }
 
 .main-welcome-image img {
@@ -324,21 +337,175 @@ header .header-logo-title img {
 
 .main-welcome h1 {
     font-size: 24rem;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 30rem;
+    color: var(--warm-black);
 }
 
 .main-welcome-text {
-    width: 90vw;
+    width: 80vw;
     margin: 0 auto;
+    margin-bottom: 25px;
 }
 
 .main-welcome-text div {
     width: 108px;
     height: 6px;
     background-color: var(--text-slide);
+    margin-bottom: 25px;
 }
 
 .main-welcome-text p {
     font-size: 18rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 35rem;
+    color: var(--warm-black);
+}
+
+.main-features-vision-img, .main-features-methodology-img, .main-features-mentors-img {
+     width: 100vw;
+     min-width: 320px;
+     height: 170px;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     margin-bottom: 30px;
+}
+
+.main-features-vision-img {
+    background-image: url('https://images.unsplash.com/photo-1519834785169-98be25ec3f84?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80'); 
+}
+
+.main-features-methodology-img {
+    background-image: url('https://images.unsplash.com/photo-1574100004472-e536d3b6bacc?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80');
+}
+
+.main-features-mentors-img {
+    background-image: url('https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=924&q=80');
+}
+
+.main-features h2 {
+    font-size: 24rem;
+    padding-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 27rem;
+    color: var(--warm-black);
+}
+
+.main-features p {
+    font-size: 18rem;
+    padding-bottom: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 35rem;
+    color: var(--warm-black);
+}
+
+.main-features button {
+    width: 172px;
+    height: 43px;
+    background-color: var(--normal-blue);
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.main-features button a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    margin: 0 auto;
+}
+
+.main-features-vision-text, .main-features-methodology-text, .main-features-mentors-text {
+    width: 80vw;
+    max-height: 700px;
+    margin: 0 auto;
+}
+
+.main-features-vision-text div, .main-features-methodology-text div, .main-features-mentors-text div {
+    width: 108px;
+    height: 6px;
+    background-color: var(--text-slide);
+    margin-bottom: 25px;
+}
+
+/*mentoring*/
+
+.body {
+    background-color: white;
+}
+
+.header {
+    background-color: var(--light-gray);
+}
+
+.main-mentoring {
+    width: 80vw;
+    margin: 0 auto;
+    min-height: 370px;
+}
+
+.main-mentoring h1 {
+    font-size: 24rem;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 27rem;
+    color: var(--warm-black);
+}
+
+.main-mentoring p {
+    font-size: 20rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 35rem;
+    color: var(--warm-black);
+}
+
+.main-courses-container {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.main-courses-container div {
+    width: 80vw;
+    max-width: 320px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-courses-container div h2 {
+    font-size: 24rem;
+}
+
+.main-courses-container p {
+    font-size: 16rem;
+}
+
+.main-courses-writing div {
+    background: linear-gradient(to left, #662828, #E65959  50%, #662828, #E65959 50%);
+}
+
+.main-courses-math div {
+    background: linear-gradient(to left, #161863, #3137E3  50%, #161863, #3137E3 50%);
+}
+
+.main-courses-data div {
+    background: linear-gradient(to left, #5C2F1C, #DB7142  50%, #5C2F1C, #DB7142 50%);
+}
+
+.main-courses-web div {
+    background: linear-gradient(to left, #2C4510, #7EC52D  50%, #2C4510, #7EC52D 50%);
 }
 
 footer {
