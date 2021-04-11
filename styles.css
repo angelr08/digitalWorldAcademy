@@ -450,6 +450,7 @@ header .header-logo-title img {
     width: 80vw;
     margin: 0 auto;
     min-height: 370px;
+    margin-bottom: 20px;
 }
 
 .main-mentoring h1 {
@@ -472,7 +473,11 @@ header .header-logo-title img {
 
 .main-courses-container {
     width: 80vw;
+    max-width: 320px;
     margin: 0 auto;
+    margin-bottom: 25px;
+    border-top: 1px var(--dark-gray) solid;
+    border-bottom: 1px var(--dark-gray) solid;
 }
 
 .main-courses-container div {
@@ -482,14 +487,30 @@ header .header-logo-title img {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    border-radius: 4px;
 }
 
 .main-courses-container div h2 {
     font-size: 24rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 27rem;
+    color: white;
 }
 
 .main-courses-container p {
     font-size: 16rem;
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 30rem;
+    color: var(--warm-black);
+}
+
+.main-courses-container .main-courses-container-sign {
+    text-decoration: underline;
 }
 
 .main-courses-writing div {
@@ -506,6 +527,53 @@ header .header-logo-title img {
 
 .main-courses-web div {
     background: linear-gradient(to left, #2C4510, #7EC52D  50%, #2C4510, #7EC52D 50%);
+}
+
+.main-courses-desing div {
+    background: linear-gradient(to left, #3C1C47, #A74EC7  50%, #3C1C47, #A74EC7 50%);
+}
+
+.main-courses-marketing div {
+    background: linear-gradient(to left, #2D315E, #4E9AC7  50%, #2D315E, #4E9AC7 50%);
+}
+
+/*Projects*/
+
+.main-quality-img {
+    width: 100vw;
+    min-width: 320px;
+    height: 105px;
+    background-image: url('https://images.unsplash.com/photo-1470378639897-89788e74b7bf?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1054&q=80');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-quality {
+    position: relative;
+    width: 100vw;
+    height: 235px;
+    background-color: var(--light-gray);
+}
+
+.main-quality-title {
+    width: 282px;
+    height: 126px;
+    background-color: white;
+    position: absolute;
+    left: calc(50% - 141px);
+    bottom: 45px;
+    border-bottom: 10px var(--dark-gray) solid;
+}
+
+.main-quality-title h1 {
+    font-size: 24rem;
+    text-align: center;
+    padding-top: 49px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 27rem;
+    color: var(--dark-gray);
 }
 
 footer {
