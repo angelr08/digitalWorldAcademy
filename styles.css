@@ -576,6 +576,55 @@ header .header-logo-title img {
     color: var(--dark-gray);
 }
 
+.main-projects {
+    width: 80vw;
+    max-width: 350px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.main-projects h2 {
+    font-size: 24rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 27rem;
+    color: var(--warm-black);
+}
+
+.main-projects-bar {
+    width: 108px;
+    height: 6px;
+    background-color: var(--text-slide);
+    margin-bottom: 20px;
+}
+
+.main-projects-containers {
+    width: 80vw;
+    max-width: 350px;
+    height: 200px;
+    background-color: var(--light-gray);
+    margin-bottom: 20px;
+    border-bottom: 10px var(--dark-gray) solid;
+}
+
+.main-projects-containers img {
+    width: 80vw;
+    max-width: 350px;
+    height: 100px;
+}
+
+.main-projects-containers h3 {
+    font-size: 18rem;
+    margin-top: 15px;
+    margin-left: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 27rem;
+    color: var(--warm-black);
+}
+
 footer {
     width: 100vw;
     min-width: 320px;

@@ -1,0 +1,48 @@
+.main-first-landing-container {
+    height: 420px;
+}
+
+.main-landing-image {
+    height: 180px;
+}
+
+.main-landing-presentation-container {
+    width: 650px;
+    height: 250px;
+    bottom: 30px;
+    left: calc(50% - 325px);
+}
+
+.main-landing-presentation-container h1 {
+    font-size: 30rem;
+    line-height: 35rem;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.main-landing-presentation-container p {
+    font-size: 20rem;
+    line-height: 24rem;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.main-landing-presentation-container button {
+    width: 192px;
+    height: 55px;
+    left: calc(50% - 96px);
+}
+
+.main-landing-presentation-container button a {
+    font-size: 20rem;
+}
+
+.main-second-landing-container h2 {
+    font-size: 30rem;
+    line-height: 35rem;
+}
+
+.courses-advantage p {
+    font-size: 24rem;
+    line-height: 30rem;
+}
