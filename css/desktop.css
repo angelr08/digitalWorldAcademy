@@ -1,0 +1,21 @@
+header {
+    height: 190px;
+}
+
+.hamburger-menu {
+    position: static;
+    min-height: none;
+    width: 100vw;
+    height: 98px;
+    background-color: #74B6EE;
+}
+
+.hamburger-menu input[type="checkbox"], .hamburger-menu .hamburger-menu-logo, .hamburger-menu .hamburger-menu-close-icon {
+    position: static;
+    width: 0;
+    height: 0;
+}
+
+.hamburger-menu nav {
+    display: flex;
+}

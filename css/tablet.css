@@ -46,3 +46,204 @@
     font-size: 24rem;
     line-height: 30rem;
 }
+
+.main-third-landing-container {
+    position: relative;
+    height: 400px;
+}
+
+.main-third-landing-container-image {
+    height: 360px;
+}
+
+.main-third-landing-container-information {
+    position: absolute;
+    width: 360px;
+    height: 300px;
+    background-color: rgba(252, 252, 252, .8);
+    bottom: 40px;
+    left: 30px;
+}
+
+.main-third-landing-container h2 {
+    font-size: 26rem;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    line-height: 30rem;
+}
+
+.main-third-landing-container-information div {
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.main-third-landing-container-information p {
+    margin-bottom: 20px;
+    padding-left: 15px;
+    font-size: 20rem;
+}
+
+.main-third-landing-container-information button {
+    margin-left: 15px;
+}
+
+.main-third-landing-container-information button a {
+    font-size: 20rem;
+}
+
+/* About */
+
+.main-welcome-image {
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-welcome-image div {
+    height: 130px;
+}
+
+.main-welcome-image h2 {
+    font-size: 30rem;
+}
+
+.main-welcome-text {
+    width: 90vw;
+}
+
+.main-welcome h1 {
+    font-size: 30rem;
+}
+
+.main-welcome-text p {
+    font-size: 20rem;
+}
+
+.main-features-vision-img, .main-features-methodology-img, .main-features-mentors-img {
+    height: 220px;
+}
+
+.main-features-vision-text, .main-features-methodology-text, .main-features-mentors-text {
+    width: 90vw;
+}
+
+.main-features h2 {
+    font-size: 30rem;
+    line-height: 35rem;
+}
+
+.main-features p {
+    font-size: 20rem;
+}
+
+.main-features button a {
+    font-size: 18rem;
+}
+
+.main-features-mentors-text {
+    margin-bottom: 40px;
+}
+
+/*Mentorin*/
+
+.main-mentoring {
+    width: 80vw;
+    min-height: 280px;
+    margin-bottom: 10px;
+}
+
+.main-mentoring h1 {
+    text-align: center;
+    font-size: 30rem;
+    line-height: 35rem;
+    padding-bottom: 35px;
+}
+
+.main-mentoring p {
+    font-size: 24rem;
+}
+
+.main-courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.main-courses-container {
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.main-courses-container p {
+    font-size: 18rem;
+}
+
+/*Projects*/
+
+.main-quality {
+    height: 320px;
+    margin-bottom: 30px;
+}
+
+.main-quality-img {
+    height: 220px;
+}
+
+.main-quality-title {
+    width: 690px;
+    left: calc(50% - 345px);
+}
+
+.main-quality-title h1 {
+    font-size: 30rem;
+    line-height: 35rem;
+}
+
+.main-projects {
+    width: 100vw;
+    max-width: none;
+}
+
+.main-projects-title {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.main-projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.main-projects h2 {
+    font-size: 30rem;
+    line-height: 35rem;
+}
+
+.main-projects-bar {
+    margin-bottom: 40px;
+}
+
+footer {
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-connect, .footer-contact {
+    width: 40vw;
+    margin: 0;
+}
+
+footer h2 {
+    font-size: 30rem;
+    line-height: 35rem;
+}
+
+footer p {
+    font-size: 20rem;
+    line-height: 24rem;
+}
