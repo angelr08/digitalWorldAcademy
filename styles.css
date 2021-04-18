@@ -26,6 +26,7 @@ body {
 
 header {
     width: 100vw;
+    max-width: 100%;
     min-width: 320px;
     height: 94px;
     display: flex;
@@ -115,13 +116,14 @@ header .header-logo-title img {
 .main-first-landing-container {
     position: relative;
     width: 100vw;
+    max-width: 100%;
     min-width: 320px;
     height: 522px;
     margin: 0 auto; 
 }
 
 .main-landing-image {
-    width: 100vw;
+    width: 100%;
     min-width: 320px;
     height: 169px;
     background-image: url('https://images.unsplash.com/20/cambridge.JPG?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1030&q=80');
@@ -201,6 +203,7 @@ header .header-logo-title img {
 
 .main-second-landing-container .courses-advantage {
     width: 100vw;
+    max-width: 100%;
     height: 108px;
     display: flex;
     justify-content: flex-start;
@@ -237,6 +240,7 @@ header .header-logo-title img {
 
 .main-third-landing-container-image {
     width: 100vw;
+    max-width: 100%;
     min-width: 320px;
     height: 94px;
     background-image: url('https://images.unsplash.com/photo-1606761568499-6d2451b23c66?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80');
@@ -299,6 +303,7 @@ header .header-logo-title img {
 .main-welcome-image {
     position: relative;
     width: 100vw;
+    max-width: 100%;
     min-width: 320px;
     height: 160px;
     background-image: url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
@@ -309,6 +314,7 @@ header .header-logo-title img {
 
 .main-welcome-image div {
     width: 100vw;
+    max-width: 100%;
     min-width: 320px;
     height: 160px;
     background-color: rgba(252, 252, 252, .7);
@@ -330,7 +336,6 @@ header .header-logo-title img {
     width: 60px;
     height: 30px;
     left: calc(50% - 30px);
-
 }
 
 .main-welcome h1 {
@@ -366,6 +371,7 @@ header .header-logo-title img {
 
 .main-features-vision-img, .main-features-methodology-img, .main-features-mentors-img {
      width: 100vw;
+     max-width: 100%;
      min-width: 320px;
      height: 170px;
      background-size: cover;
@@ -540,6 +546,7 @@ header .header-logo-title img {
 
 .main-quality-img {
     width: 100vw;
+    max-width: 100%;
     min-width: 320px;
     height: 105px;
     background-image: url('https://images.unsplash.com/photo-1470378639897-89788e74b7bf?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1054&q=80');
@@ -551,6 +558,7 @@ header .header-logo-title img {
 .main-quality {
     position: relative;
     width: 100vw;
+    max-width: 100%;
     height: 235px;
     background-color: var(--light-gray);
 }
@@ -626,6 +634,7 @@ header .header-logo-title img {
 
 footer {
     width: 100vw;
+    max-width: 100%;
     min-width: 320px;
     height: 400px;
     background-color: var(--dark-gray);

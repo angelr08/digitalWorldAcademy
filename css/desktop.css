@@ -1,11 +1,15 @@
 header {
     height: 190px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
 }
 
 .hamburger-menu {
     position: static;
     min-height: none;
     width: 100vw;
+    max-width: 100%;
     height: 98px;
     background-color: #74B6EE;
 }
@@ -17,5 +21,231 @@ header {
 }
 
 .hamburger-menu nav {
-    display: flex;
+    display: block;
 }
+
+.hamburger-menu ul {
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.hamburger-menu li a {
+    font-size: 24rem;
+    border-bottom: none;
+    background: none;
+    max-width: none;
+    display: inline-block;
+    padding-top: 25px;
+    padding-left: 30px;
+}
+
+.main-landing-image {
+    height: 360px;
+    max-width: 100%;
+}
+
+.main-landing-presentation-container {
+    width: 880px;
+    height: 250px;
+    bottom: 105px;
+    left: calc(50% - 440px);
+}
+
+.main-second-landing-container h2 {
+    font-size: 36rem;
+}
+
+.main-second-landing-container .courses-advantage {
+    max-width: 100%;
+}
+
+.main-second-landing-container .main-courses-title div {
+    margin-bottom: 0;
+}
+
+.main-advantages-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    margin: 0;
+}
+
+.main-second-landing-container .courses-advantage {
+    border-bottom: none;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.courses-advantage img {
+    width: 80px;
+    height: 80px;
+    margin: 0;
+}
+
+.courses-advantage p {
+    padding-left: 0;
+}
+
+.main-third-landing-container-image {
+    height: 300px;
+}
+
+.main-third-landing-container-information {
+    width: 610px;
+    height: 240px;
+    bottom: 95px;
+    left: 60px;
+}
+
+/*About*/
+
+.main-welcome-image {
+    height: 360px;
+}
+
+.main-welcome-image div {
+    width: 890px;
+    height: 200px;
+}
+
+.main-welcome-image img {
+    width: 90px;
+    height: 50px;
+    left: calc(50% - 45px);
+}
+
+.main-welcome-text {
+    height: 340px;
+    background-color: white;
+    margin: 0;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.main-welcome h1 {
+    padding-left: 200px;
+    padding-top: 35px;
+}
+
+.main-welcome-text div {
+    margin-left: 200px;
+}
+
+.main-welcome-text p {
+    padding-left: 200px;
+    padding-right: 100px;
+    font-size: 24rem;
+    line-height: 45rem;
+}
+
+.main-features-vision-img {
+    background-image: url('https://i.postimg.cc/28tSF9CL/mision-about-small.png'); 
+}
+
+.main-features-methodology-img {
+    background-image: url('https://i.postimg.cc/zD0B3XMj/Componente-2-1-2x.png');
+}
+
+.main-features-mentors-img {
+    background-image: url('https://i.postimg.cc/xT8dmVVS/mentores-about-small.png');
+}
+
+.main-features-vision-img, .main-features-methodology-img, .main-features-mentors-img {
+    width: 557px;
+    height: 335px;
+    margin-bottom: 200px;
+}
+
+.main-features-vision-text, .main-features-methodology-text, .main-features-mentors-text {
+    width: 45%;
+    margin: 0;
+}
+
+.main-features-vision, .main-features-methodology, .main-features-mentors {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-features-methodology {
+    flex-direction: row-reverse;
+}
+
+/*Mentorin*/
+
+.main-mentoring h1 {
+    font-size: 36rem;
+    padding-top: 50px;
+}
+
+.main-mentoring p {
+    font-size: 30rem;
+    line-height: 40rem;
+}
+
+.main-courses-container {
+    margin: 50px 30px;
+}
+
+/*Projects*/
+
+.main-quality {
+    height: 400px;
+    background: none;
+}
+
+.main-quality-img {
+    height: 360px;
+}
+
+.main-quality-title {
+    width: 600px;
+    left: calc(50% - 300px);
+    bottom: 150px;
+    background-color: rgba(252, 252, 252, .8);
+}
+
+.main-projects {
+   max-width: 100%;
+}
+
+.main-projects-container {
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.main-projects-containers {
+    margin: 50px 30px;
+}
+
+footer {
+    max-width: 100%;
+    justify-content: space-around;
+}
+
+.footer-connect, .footer-contact {
+    width: auto;
+    margin: 0;
+}
+
+footer h2 {
+    font-size: 36rem;
+    line-height: 35rem;
+}
+
+footer p {
+    font-size: 24rem;
+    line-height: 24rem;
+}
+
+.footer-contact-information p {
+    font-size: 24rem;
+    padding: 5px
+}
+
+

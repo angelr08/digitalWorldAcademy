@@ -247,3 +247,8 @@ footer p {
     font-size: 20rem;
     line-height: 24rem;
 }
+
+.footer-contact-information p {
+    font-size: 20rem;
+    padding: 5px
+}
